@@ -1,0 +1,25 @@
+Basic features
+    1. Calorie tracking
+    2. Meal analysis
+    3. Weight tracking
+    4. Exercise plan tracking with calendar
+    5. Workout tracking
+
+Backend
+    1. Nodejs
+    2. MongoDB
+    3. AI for analysis- How???
+
+APIs
+    1. /login
+            {                       200 OK
+    POST       email: ""            user-id
+            }
+
+    2. /update-data
+            {                       200 OK
+                "user-id": ""
+    POST        "data": {}
+            }
+
+Store user-data on device and update everyday on cloud db when app opens.
